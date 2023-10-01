@@ -1,0 +1,42 @@
+<div class="dashboard-container">
+  <div class="sidebar">
+    <!-- Sidebar content goes here -->
+    <p>Total confirmed Pins: {{ totalPins }}</p>
+    <p>Confirmed pins by mine:</p>
+    <ul>
+      <li *ngFor="let mine of mines" (click)="loadMineDetails(mine.id)">{{ mine.name }}</li>
+    </ul>
+    <button routerLink="/leaflet-map">Create a Pin</button>
+    <br>
+    <button (click)="managePins()">Manage Pins</button>
+    <br>
+    <button (click)="dataAnalytics()">Data Analytics</button>
+  </div>
+  <div class="content">
+    <!-- Content for displaying incident counts and mine details goes here -->
+    <div class="incident-boxes">
+      <div class="box low-box">
+        <h2>Low</h2>
+        <!-- Display the count of low incidents -->
+      </div>
+      <div class="box medium-box">
+        <h2>Medium</h2>
+        <!-- Display the count of medium incidents -->
+      </div>
+      <div class="box high-box">
+        <h2>High</h2>
+        <!-- Display the count of high incidents -->
+      </div>
+    </div>
+    <div class="mine-details">
+      <h2>Mine Details</h2>
+      <p><strong>Name:</strong></p>
+      <p><strong>Contact Person:</strong></p>
+      <p><strong>Email:</strong></p>
+      <p><strong>Contact Number:</strong><p>
+      <p><strong>Location:</strong><p>
+      <p><strong>Type of Mine:</strong></p>
+      <p><strong>Material Processed:</strong></p>
+    </div>
+  </div>
+</div>

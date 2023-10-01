@@ -1,0 +1,105 @@
+/* Dashboard Container */
+.dashboard-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  width: 250px;
+  background-color: #150858;
+  color: #fff;
+  padding: 20px;
+
+  p {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      cursor: pointer;
+      margin-bottom: 5px;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 100%;
+
+    &:hover {
+      background-color: #26109e;
+    }
+  }
+}
+
+button:nth-child(3) {
+  margin-top: 0; /* Reset top margin */
+}
+
+/* Content Styles */
+.content {
+  flex-grow: 1;
+  margin-left: 20px;
+
+  /* Incident Boxes Styles */
+  .incident-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    .box {
+      flex-grow: 1;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      text-align: center;
+
+      h2 {
+        margin-bottom: 10px;
+      }
+    }
+
+    .low-box {
+      background-color: #ffeeba;
+    }
+
+    .medium-box {
+      background-color: #ffc107;
+    }
+
+    .high-box {
+      background-color: #dc3545;
+    }
+  }
+
+  /* Mine Details Styles */
+  .mine-details {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    h2 {
+      margin-bottom:3%;
+      margin-left: 5%;
+    }
+
+    p {
+      margin-left: 5%;
+      margin-bottom: 40px;
+    }
+  }
+}
