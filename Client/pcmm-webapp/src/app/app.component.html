@@ -6,7 +6,7 @@
     <ul>
       <li *ngFor="let mine of mines" (click)="loadMineDetails(mine.id)">{{ mine.name }}</li>
     </ul>
-    <button (click)="createIncident()">Create an Incident</button>
+    <button routerLink="/leaflet-map">Create a Pin</button>
     <br>
     <button (click)="managePins()">Manage Pins</button>
     <br>
@@ -40,3 +40,5 @@
     </div>
   </div>
 </div>
+<router-outlet></router-outlet>
+
