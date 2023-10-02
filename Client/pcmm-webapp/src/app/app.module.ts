@@ -6,20 +6,22 @@ import { AppComponent } from './app.component';
 import { LeafletMapComponent } from './leaflet-map/leaflet-map.component';
 import { PinManagementComponent } from './pin-management/pin-management.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { PinService } from './pin.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
     LeafletMapComponent,
     PinManagementComponent,
-    DashboardComponent
+    DashboardComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterOutlet
+    HttpClientModule,
   ],
-  providers: [],
+  providers: [PinService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
