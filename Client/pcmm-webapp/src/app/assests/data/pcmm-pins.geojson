@@ -1,0 +1,233 @@
+[
+  {
+      "latitude": "-26.1080",
+      "longitude": "28.2585",
+      "description": "Minor cut",
+      "severity": "Low",
+      "mine_name": "Goldrush Mine"
+  },
+  {
+      "latitude": "-26.1072",
+      "longitude": "28.2610",
+      "description": "Minor cut",
+      "severity": "Low",
+      "mine_name": "Goldrush Mine"
+  },
+  {
+      "latitude": "-26.1058",
+      "longitude": "28.2602",
+      "description": "Head bump",
+      "severity": "medium",
+      "mine_name": "Goldrush Mine"
+  },
+  {
+      "latitude": "-26.1085",
+      "longitude": "28.2578",
+      "description": "Burn",
+      "severity": "medium",
+      "mine_name": "Goldrush Mine"
+  },
+  {
+      "latitude": "-26.1052",
+      "longitude": "28.2589",
+      "description": "Vehicle collision",
+      "severity": "high",
+      "mine_name": "Goldrush Mine"
+  },
+  {
+      "latitude": "-30.7261",
+      "longitude": "24.0720",
+      "description": "Minor cut",
+      "severity": "Low",
+      "mine_name": "Diamond Delve Mine"
+  },
+  {
+      "latitude": "-30.7155",
+      "longitude": "24.0803",
+      "description": "Minor cut",
+      "severity": "Low",
+      "mine_name": "Diamond Delve Mine"
+  },
+  {
+      "latitude": "-30.7236",
+      "longitude": "24.0657",
+      "description": "Ankle strain",
+      "severity": "Low",
+      "mine_name": "Diamond Delve Mine"
+  },
+  {
+      "latitude": "-30.7128",
+      "longitude": "24.0715",
+      "description": "Ankle strain",
+      "severity": "Low",
+      "mine_name": "Diamond Delve Mine"
+  },
+  {
+      "latitude": "-30.7198",
+      "longitude": "24.0792",
+      "description": "Burn",
+      "severity": "medium",
+      "mine_name": "Diamond Delve Mine"
+  },
+  {
+      "latitude": "-27.7776",
+      "longitude": "30.8424",
+      "description": "Minor cut",
+      "severity": "Low",
+      "mine_name": "Copper Canyon Mine"
+  },
+  {
+      "latitude": "-27.7872",
+      "longitude": "30.8299",
+      "description": "Minor cut",
+      "severity": "Low",
+      "mine_name": "Copper Canyon Mine"
+  },
+  {
+      "latitude": "-27.7788",
+      "longitude": "30.8320",
+      "description": "Head bump",
+      "severity": "medium",
+      "mine_name": "Copper Canyon Mine"
+  },
+  {
+      "latitude": "-27.7821",
+      "longitude": "30.8443",
+      "description": "Burn",
+      "severity": "medium",
+      "mine_name": "Copper Canyon Mine"
+  },
+  {
+      "latitude": "-27.7896",
+      "longitude": "30.8355",
+      "description": "Head bump",
+      "severity": "medium",
+      "mine_name": "Copper Canyon Mine"
+  },
+  {
+      "latitude": "-29.2923",
+      "longitude": "29.1258",
+      "description": "Pedestrian accident",
+      "severity": "high",
+      "mine_name": "Silver Stream Mine"
+  },
+  {
+      "latitude": "-29.2778",
+      "longitude": "29.1302",
+      "description": "Minor cut",
+      "severity": "Low",
+      "mine_name": "Silver Stream Mine"
+  },
+  {
+      "latitude": "-29.2835",
+      "longitude": "29.1147",
+      "description": "Head bump",
+      "severity": "medium",
+      "mine_name": "Silver Stream Mine"
+  },
+  {
+      "latitude": "-29.2756",
+      "longitude": "29.1219",
+      "description": "Burn",
+      "severity": "medium",
+      "mine_name": "Silver Stream Mine"
+  },
+  {
+      "latitude": "-29.2890",
+      "longitude": "29.1186",
+      "description": "Vehicle collision",
+      "severity": "high",
+      "mine_name": "Silver Stream Mine"
+  },
+  {
+      "latitude": "-25.7524",
+      "longitude": "27.4709",
+      "description": "Minor cut",
+      "severity": "Low",
+      "mine_name": "Iron Mountain Mine"
+  },
+  {
+      "latitude": "-25.7395",
+      "longitude": "27.4603",
+      "description": "Burn",
+      "severity": "medium",
+      "mine_name": "Iron Mountain Mine"
+  },
+  {
+      "latitude": "-25.7418",
+      "longitude": "27.4762",
+      "description": "Head bump",
+      "severity": "medium",
+      "mine_name": "Iron Mountain Mine"
+  },
+  {
+      "latitude": "-25.7487",
+      "longitude": "27.4685",
+      "description": "Burn",
+      "severity": "medium",
+      "mine_name": "Iron Mountain Mine"
+  },
+  {
+      "latitude": "-25.7562",
+      "longitude": "27.4639",
+      "description": "Vehicle collision",
+      "severity": "high",
+      "mine_name": "Iron Mountain Mine"
+  },
+  {
+      "latitude": "-26.10",
+      "longitude": "26.10",
+      "description": "heat",
+      "severity": "severe",
+      "mine_name": "Copper Canyon Mine"
+  },
+  {
+      "latitude": "-26.108",
+      "longitude": "28.258",
+      "description": "Minor cut",
+      "severity": "Low",
+      "mine_name": "Diamond Delve Mine"
+  },
+  {
+      "latitude": "-26.108",
+      "longitude": "3.258",
+      "description": "Minor cut",
+      "severity": "Low",
+      "mine_name": "Diamond Delve Mine"
+  },
+  {
+      "latitude": "-40.108",
+      "longitude": "30.258",
+      "description": "High Blood",
+      "severity": "High",
+      "mine_name": "Iron Mountain Mine"
+  },
+  {
+      "latitude": "-40.108",
+      "longitude": "30.250",
+      "description": "High Blood",
+      "severity": "High",
+      "mine_name": "Goldrush Mine"
+  },
+  {
+      "latitude": "-40.108",
+      "longitude": "30.257",
+      "description": "High Blood",
+      "severity": "High",
+      "mine_name": "Goldrush Mine"
+  },
+  {
+      "latitude": "-20.1080",
+      "longitude": "30.257",
+      "description": "High Blood",
+      "severity": "High",
+      "mine_name": "Silver Stream Mine"
+  },
+  {
+      "latitude": "-26.1081",
+      "longitude": "28.2584",
+      "description": "High-High",
+      "severity": "Low",
+      "mine_name": "Copper Canyon Mine"
+  }
+]
