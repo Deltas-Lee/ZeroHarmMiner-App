@@ -2,6 +2,12 @@
 
 Welcome to the People-Centred Mining Modernization (PCMM) Web Application!
 
+![alt text](https://github.com/Deltas-Lee/ZeroHarmMiner-App/blob/develop/Client/pcmm-webapp/src/app/assests/data/dashboard.png)
+
+`Create a Pin` opens👇:
+
+![alt text](https://github.com/Deltas-Lee/ZeroHarmMiner-App/blob/develop/Client/pcmm-webapp/src/app/assests/data/map.png)
+
 ## Project Dependencies
 - Angular CLI: 15.2.9
 - Leaflet: 1.7.1
