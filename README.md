@@ -1,29 +1,58 @@
 # ZeroHarmMiner-App | PCMM Assignment
-People-Centred Mining Modernization (PCMM) - Web Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.9.
+Welcome to the People-Centred Mining Modernization (PCMM) Web Application!
 
-## Development server
+## Project Dependencies
+- Angular CLI: 15.2.9
+- Leaflet: 1.7.1
+- Node.js: 18.4.0
+- Express.js: 4.18.2
+- pg (PostgreSQL): 8.11.3
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Installation Guide
 
-## Code scaffolding
+To run this project on your local machine, follow these steps:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. **Node.js and npm**: Ensure you have Node.js and npm (Node Package Manager) installed. You can download and install them from [here](https://nodejs.org/).
 
-## Build
+2. **Angular CLI**: Install the Angular CLI globally by running the following command:
+   ```bash
+   npm install -g @angular/cli
 
-Run `ng build` to build the project. The build artefacts will be stored in the `dist/` directory.
+3. Clone Repository: Clone this repository to your local machine using Git:
+   git clone https://github.com/your-username/ZeroHarmMiner-App.git
+   cd ZeroHarmMiner-App
 
-## Running unit tests
+4. Frontend Dependencies: Install frontend dependencies by navigating to the Client directory and running:
+   ```bash
+   cd Client/pcmm-webapp
+   npm install
+   
+   
+5. Backend Dependencies: Navigate back to the project root and install backend dependencies by running:
+   ```bash
+   cd pcmm-webapi
+   npm install
+  Build and Run
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+7. **Frontend**
+   To start the frontend development server, run the following command from within the Client/pcmm-webapp directory:
+   Copy code
+   ```bash
+   ng serve
+8. Open your web browser and navigate to <http://localhost:4200/> to access the web application. The application will automatically reload when you make changes to the source code.
 
-## Running end-to-end tests
+9. Backend
+    To build and start the backend server, run the following command from the project root directory:
+   ```bash
+   node index.js
+  The backend server will start running on <http://localhost:3000/>.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+10.**Usage
+   * Use the web application as per your requirements.
+   * Explore the various features and functionalities provided by the PCMM application.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-
+11. Additional Information
+    * This project was generated with Angular CLI version 15.2.9.
+    * For more details on Angular CLI commands and usage, refer to the Angular CLI Documentation.
+    * If you encounter any issues or need further assistance, please refer to the Angular Community or the project's support channels.
