@@ -1,4 +1,4 @@
-# ZeroHarmMiner-App | PCMM Assignment
+# ZeroHarmMiner-App
 
 Welcome to the People-Centred Mining Modernization (PCMM) Web Application!
 
